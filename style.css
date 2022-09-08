@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,13 +9,17 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 50vh;
   background: #ecf0f3;
 }
-.container,
+.container, 
+{
+  max-width: 1140px;
+}
 .container .img-area,
 .social-icons a,
 .buttons button{
+  
   background: #ecf0f3;
   box-shadow: -3px -3px 7px #ffffff,
                3px 3px 5px #ceced1;
@@ -23,7 +27,7 @@ body{
 .container{
   position: relative;
   width: 350px;
-  padding: 30px;
+  padding: 100px;
   border-radius: 10px;
   display: flex;
   align-items: center;
