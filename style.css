@@ -9,10 +9,13 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 50vh;
   background: #ecf0f3;
 }
 .container, 
- max-width: 1140px;
+{
+  max-width: 1140px;
+}
 .container .img-area,
 .social-icons a,
 .buttons button{
